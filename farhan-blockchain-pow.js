@@ -81,6 +81,6 @@ console.log(JSON.stringify( farhanBlockChain.validateBlockChain(), null, 2 ) );
 
 console.log("changing data..");
 farhanBlockChain.chain[1].data = {name:'Block one', occupation:'being awesome block 1!'};
-farhanBlockChain.chain[1].hash = farhanBlockChain.chain[1].calculateHashForBlock(); 
+//farhanBlockChain.chain[1].hash = farhanBlockChain.chain[1].calculateHashForBlock(); 
 
 console.log(JSON.stringify( farhanBlockChain.validateBlockChain(), null, 2 ) );
